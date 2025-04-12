@@ -1,0 +1,107 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: whitesmoke;
+	color: #000000;
+}
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.container_card{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
+header{
+	background-color: #ff8c42;
+	color: whitesmoke;
+	padding: 20px 0;
+}
+header h1{
+	margin: 0;
+	text-align: center;
+}
+nav ul{
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+nav ul li a{
+	color: whitesmoke;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav ul li{
+	display: inline;
+	margin: 0 15px;
+}
+.hero{
+	color: white;
+	text-align: center;
+	padding: 80px 0;
+}
+.hero h2{
+	font-size: 2.5em;
+	margin: 0;
+	color: black;
+}
+.hero p{
+	font-size: 1.2em;
+	margin: 10px 0 20px;
+	color: black;
+}
+.hero .btn{
+	background-color: #ff8c42;
+	color: whitesmoke;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.cards{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+}
+.card{
+	background-color: whitesmoke;
+	padding: 20px;
+	text-align: center;
+	color: black;
+	box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.1);
+	width: calc(33.333% - 20px);
+}
+.card h3{
+	margin: 0 0 10px;
+	color: #ff8c42;
+}
+.card p{
+	margin: 0 0 10px;
+	color: black;
+}
+.about{
+	background-color: #ebebeb;
+	text-align: justify;
+}
+.about h1{
+	margin-bottom: 20px;
+	color: #ff8c42;
+}
+.about p{
+	margin: 0 auto;
+	line-height: 1.6;
+	max-width: 1500px;
+}
+footer{
+	background-color: #333;
+	color: whitesmoke;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 50px;
+}
+footer p{
+	margin: 0;
+}
